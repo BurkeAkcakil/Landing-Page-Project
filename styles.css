@@ -17,9 +17,46 @@ a {
     display: flex;
     background-color: #1F2937;
     border: 1px solid;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .head-left-side {
     display: flex;
+    margin-left: 150px;
+}
+
+.head-right-side {
+    display: flex;
+    margin-right: 150px;
+    gap: 100px;
+}
+
+.header-2 {
+    display: flex;
+    background-color: #1F2937;
     border: 1px solid;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.header-2-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-2-right {
+    display: flex;
+
+}
+
+.part1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.part2 {
+    font-size: 18px;
+    color: #E5E7EB;
 }
