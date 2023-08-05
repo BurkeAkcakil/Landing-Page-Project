@@ -16,7 +16,6 @@ a {
 .header {
     display: flex;
     background-color: #1F2937;
-    border: 1px solid;
     justify-content: space-between;
     padding: 20px;
 }
@@ -35,15 +34,16 @@ a {
 .header-2 {
     display: flex;
     background-color: #1F2937;
-    border: 1px solid;
     justify-content: space-between;
     padding: 100px;
+    gap: 60px;
 }
 
 .header-2-left {
     display: flex;
     flex-direction: column;
     margin-left: 100px;
+    text-align: center;
 }
 
 .header-2-right {
@@ -71,4 +71,87 @@ a {
     background-color: #3882f6;
     color: #E5E7EB;
     border-radius: 12px;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.img1 {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.middle {
+    display: flex;
+    flex: wrap; 
+    justify-content: center;
+    padding: 70px;
+    flex-direction: row;
+    margin-top: -70px;
+}
+
+.pix {
+    display: flex;
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: auto;
+    text-align: center;
+}
+
+.quotebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.last-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    border: 1px solid;
+    
+}
+
+.blue-box {
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3882f6;
+    gap: 300px;
+}
+
+.box-left-side {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
 }
