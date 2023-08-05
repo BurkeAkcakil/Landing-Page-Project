@@ -140,18 +140,42 @@ a {
 
 .blue-box {
     display: flex;
-    border: 1px solid;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-color: #3882f6;
-    gap: 300px;
+    gap: 330px;
+    border-radius: 12px;
+    padding: 30px 150px;
 }
 
 .box-left-side {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    color: #E5E7EB;
+}
+
+.but3 {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 12px;
+    align-self: center;
+    margin-top: 15px;
+    border: #E5E7EB 2px solid;
+}
+
+.paro1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
 }
